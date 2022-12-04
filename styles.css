@@ -2,5 +2,20 @@
 .GlobalTopbar {display:none !important;}
 
 .AsanaBaseTopbar {
-    background: url('img/f2-bg.png') top center no-repeat !important;
+	padding-top:50px !important;
+    background: url('https://raw.githubusercontent.com/moticos/asana-chrome/main/img/f2-bg.png') top center no-repeat !important;
   }
+  
+.AsanaBaseTopbar * {background-color:transparent !important;}
+  
+.TopbarPageHeaderStructureWithBreadcrumbs-leftElement {
+	display:block;
+	background: transparent url('https://raw.githubusercontent.com/moticos/asana-chrome/main/img/f2-logo.png') center center no-repeat;
+	background-size:contain;
+	width:300px;
+	height:80px;
+	margin-bottom:10px;
+}
+.TopbarPageHeaderStructureWithBreadcrumbs-leftElement .PageHeaderChipButton, 
+.TopbarPageHeaderStructureWithBreadcrumbs-navMenuRow, 
+.TopbarPageHeaderStructureWithBreadcrumbs-rightChildrenWrapper {display:none !important;}
