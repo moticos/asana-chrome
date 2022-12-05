@@ -1,5 +1,5 @@
 
-.GlobalTopbar, #asana-sidebar {display:none !important;}
+.GlobalTopbar, .SidebarResizableContainer {display:none !important;}
 
 .AsanaBaseTopbar {
 	height:250px !important;
