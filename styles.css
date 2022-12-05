@@ -2,31 +2,13 @@
 
 .AsanaBaseTopbar {
 	height:50px !important;
-    /*background: url('https://raw.githubusercontent.com/moticos/compago-chrome/main/img/f2-bg.png') bottom center no-repeat !important;
-	background-size:cover !important;*/
 	background-color:transparent !important;
   }
   
 .AsanaBaseTopbar *, .GlobalTopbar, .GlobalTopbar * {background-color:transparent !important;}
   
-/*.TopbarPageHeaderStructureWithBreadcrumbs-leftElement {
-	display:block;
-	position:absolute;
-	top:20px;
-	left:20px;
-	background: transparent url('https://raw.githubusercontent.com/moticos/compago-chrome/main/img/f2-logo.png') center center no-repeat;
-	background-size:contain;
-	width:300px;
-	height:80px;
-}*/
-/*.TopbarPageHeaderStructureWithBreadcrumbs-titleAndBreadcrumbs {
-	display:block;
-	position:absolute;
-	top:20px;
-	right:20px;
-}*/
 
 .TopbarPageHeaderStructureWithBreadcrumbs-leftElement .PageHeaderChipButton, 
 .TopbarPageHeaderStructureWithBreadcrumbs-navMenuRow, 
 .TopbarPageHeaderStructureWithBreadcrumbs-rightChildrenWrapper,
-..GlobalTopbar, #asana_sidebar {display:none !important;}
+.GlobalTopbar, #asana_sidebar {display:none !important;}
