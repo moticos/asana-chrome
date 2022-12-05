@@ -1,13 +1,12 @@
 
-.GlobalTopbar {display:none !important;}
 
 .AsanaBaseTopbar {
-	height:250px !important;
+	height:50px !important;
     background: url('https://raw.githubusercontent.com/moticos/compago-chrome/main/img/f2-bg.png') bottom center no-repeat !important;
 	background-size:cover !important;
   }
   
-.AsanaBaseTopbar * {background-color:transparent !important;}
+.AsanaBaseTopbar *, .GlobalTopbar, .GlobalTopbar * {background-color:transparent !important;}
   
 .TopbarPageHeaderStructureWithBreadcrumbs-leftElement {
 	display:block;
@@ -28,4 +27,5 @@
 
 .TopbarPageHeaderStructureWithBreadcrumbs-leftElement .PageHeaderChipButton, 
 .TopbarPageHeaderStructureWithBreadcrumbs-navMenuRow, 
-.TopbarPageHeaderStructureWithBreadcrumbs-rightChildrenWrapper {display:none !important;}
+.TopbarPageHeaderStructureWithBreadcrumbs-rightChildrenWrapper,
+.GlobalTopbar-asanaLogo {display:none !important;}
