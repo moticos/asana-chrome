@@ -28,4 +28,4 @@
 .TopbarPageHeaderStructureWithBreadcrumbs-leftElement .PageHeaderChipButton, 
 .TopbarPageHeaderStructureWithBreadcrumbs-navMenuRow, 
 .TopbarPageHeaderStructureWithBreadcrumbs-rightChildrenWrapper,
-.GlobalTopbar-asanaLogo {display:none !important;}
+.GlobalTopbar-asanaLogo, #asana_sidebar {display:none !important;}
