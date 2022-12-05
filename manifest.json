@@ -1,9 +1,9 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
-  "name": "Modify CSS and HTML",
+  "name": "Compago Asana",
   "version": "0.1.0",
-  "description": "Lateral blog post demo extension",
+  "description": "For display purposes",
 
   "content_scripts": [{
     "css": ["styles.css"],
